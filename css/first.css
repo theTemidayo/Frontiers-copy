@@ -22,3 +22,24 @@ header {
   margin-left: 1em;
   margin-right: 1em;
 }
+
+#major {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 40%;
+  float: left;
+}
+#stage {
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  width: 40%;
+  float: right;
+}
+
+/* #foot {
+  border: 1px solid black;
+  width: 20;
+  float: none;
+} */
