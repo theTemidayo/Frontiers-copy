@@ -13,8 +13,9 @@
         justify-content: space-between;
       }
       .img-logo {
-        height: 20px;
-        width: 30px;
+        height: 30px;
+        width: 40px;
+        padding-top: 10px;
       }
 
       .btn {
@@ -33,6 +34,9 @@
       .log__in li {
         padding-left: 10px;
       }
+      header {
+        display: flex;
+      }
       #/* main major {
         display: flex;
       }
@@ -44,9 +48,11 @@
   </head>
   <body>
     <header>
-      <section id="page-1">
-        <div class="page-1__navbar">
+      <navbar id="page-1">
+        <div>
           <img class="img-logo" src="image/leadership.jpg" />
+        </div>
+        <div class="page-1__navbar">
           <ul class="page-1__navbar--list">
             <li class="btn">HOME</li>
             <li class="btn">ABOUT</li>
@@ -62,7 +68,7 @@
             <li>Register</li>
           </ul>
         </div>
-      </section>
+      </navbar>
     </header>
     <main>
       <section class="major">
