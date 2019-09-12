@@ -51,16 +51,27 @@
         height: 30rem;
         width: 40rem;
       }
+      .img-logo__4 {
+        height: 20rem;
+        width: 20rem;
+      }
       .logos {
         display: flex;
       }
-      .front{
+      .front {
         text-transform: lowercase;
-        padding-top; 30px;
+        padding-top: 30px;
       }
 
-      #main {
+      #major {
         display: flex;
+        width: 100%;
+      }
+      .sidebar {
+        width: 40%;
+      }
+      .main_stage {
+        width: 60%;
       }
     </style>
   </head>
@@ -88,8 +99,8 @@
         </ul>
       </div>
     </header>
-    <main>
-      <section class="major">
+    <main id="major">
+      <section class="sidebar">
         <div class="logos">
           <img class="img-logo__1" src="image/bbb media logo.jpg" />
           <h3 class="front">FRONTIER</h3>
@@ -139,7 +150,7 @@
           </ul>
         </div>
       </section>
-      <section class="stage">
+      <section class="main_stage">
         <div>
           <h1>World-class research. Ultimate impact</h1>
           <p>
@@ -163,9 +174,9 @@
             Necessitatibus, eaque.
           </p>
         </div>
-        <!-- <div>
-          <img src="image/thatgidigirl.jpg" />
-        </div> -->
+        <div>
+          <img class="img-logo__4" src="image/thatgidigirl.jpg" />
+        </div>
         <div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
